@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "spi.h": "c",
+        "gpio.h": "c",
+        "main.h": "c",
+        "usart.h": "c",
+        "dac.h": "c",
+        "stdio.h": "c"
+    }
+}
