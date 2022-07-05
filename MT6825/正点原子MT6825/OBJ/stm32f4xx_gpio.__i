@@ -1,0 +1,7 @@
+-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FWLIB\inc -I ..\HARDWARE\ADC76
+-I.\RTE\_SPI
+-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-ID:\Keil_v5\ARM\CMSIS\Include
+-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include
+-D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99
+-o ..\obj\stm32f4xx_gpio.o --omf_browse ..\obj\stm32f4xx_gpio.crf --depend ..\obj\stm32f4xx_gpio.d "..\FWLIB\src\stm32f4xx_gpio.c"
