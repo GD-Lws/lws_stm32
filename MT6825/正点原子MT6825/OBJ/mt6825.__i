@@ -4,4 +4,4 @@
 -ID:\Keil_v5\ARM\CMSIS\Include
 -ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Device\Include
 -D__UVISION_VERSION="523" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99
--o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d "..\HARDWARE\KEY\key.c"
+-o ..\obj\mt6825.o --omf_browse ..\obj\mt6825.crf --depend ..\obj\mt6825.d "..\HARDWARE\MT6825\MT6825.c"

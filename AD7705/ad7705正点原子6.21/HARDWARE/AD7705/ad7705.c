@@ -29,11 +29,11 @@ void AD7705_IO_Init(void){
 //写数据
 void AD7705_WriteByte(u8 Dst_Addr)   
 {   
-        CS_ADC_LOW();//使能器件  
-        delay_us(20);
-        SPI1_ReadWriteByte(Dst_Addr);
-        delay_us(100);
-        CS_ADC_HIGH();//使能器件  
+      CS_ADC_LOW();//使能器件  
+      delay_us(20);
+      SPI1_ReadWriteByte(Dst_Addr);
+      delay_us(100);
+      CS_ADC_HIGH();//使能器件  
 }
 
 

@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\HARDWARE\LED;..\HARDWARE\LCD;..\HARDWARE\KEY;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\FWLIB\inc;..\HARDWARE\ADC76</IncludePath>
+              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\HARDWARE\LED;..\HARDWARE\KEY;..\HARDWARE\SPI;..\HARDWARE\W25QXX;..\FWLIB\inc;..\HARDWARE\MT6825</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -394,11 +394,6 @@
               <FileType>1</FileType>
               <FilePath>.\system_stm32f4xx.c</FilePath>
             </File>
-            <File>
-              <FileName>ad7606_demo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\ad7606_demo.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -408,11 +403,6 @@
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\LED\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>lcd.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\LCD\lcd.c</FilePath>
             </File>
             <File>
               <FileName>key.c</FileName>
@@ -425,9 +415,9 @@
               <FilePath>..\HARDWARE\SPI\spi.c</FilePath>
             </File>
             <File>
-              <FileName>ADC76.c</FileName>
+              <FileName>MT6825.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\ADC76\ADC76.c</FilePath>
+              <FilePath>..\HARDWARE\MT6825\MT6825.c</FilePath>
             </File>
           </Files>
         </Group>

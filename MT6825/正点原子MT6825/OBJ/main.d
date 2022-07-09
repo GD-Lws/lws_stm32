@@ -40,5 +40,5 @@
 ..\obj\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\main.o: ..\HARDWARE\LED\led.h
 ..\obj\main.o: ..\HARDWARE\SPI\spi.h
-..\obj\main.o: ..\HARDWARE\ADC76\ADC76.h
+..\obj\main.o: ..\HARDWARE\MT6825\MT6825.h
 ..\obj\main.o: ..\HARDWARE\KEY\key.h
