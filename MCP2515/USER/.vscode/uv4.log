@@ -1,0 +1,16 @@
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'SPI'
+compiling spi.c...
+compiling CAN_MCP2515.c...
+..\HARDWARE\MCP2515\CAN_MCP2515.c(594): warning:  #177-D: variable "sta"  was declared but never referenced
+      u8 sta;
+..\HARDWARE\MCP2515\CAN_MCP2515.c(667): warning:  #550-D: variable "STA"  was set but never used
+      u8 STA;
+..\HARDWARE\MCP2515\CAN_MCP2515.c(291): warning:  #177-D: function "MCP2515_Load_TX_Buff"  was declared but never referenced
+  static void MCP2515_Load_TX_Buff(u8 reg)
+..\HARDWARE\MCP2515\CAN_MCP2515.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=25042 RO-data=6598 RW-data=56 ZI-data=5944  
+FromELF: creating hex file...
+"..\OBJ\SPI.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:05

@@ -50,7 +50,7 @@ int main(void)
 		printf("count: %d \r\n",en_count);
 		printf("Realyangle: %d \r\n",Realyangle);
 		printf("circle_count: %d \r\n",circle_count);
-		printf("Get_v: %f\r\n",get_v);
+		// printf("Get_v: %f\r\n",get_v);
 		printf("\r\n");
 		TIM_SetCompare1(TIM14,duty_ratio);	//修改比较值，修改占空比
 	}

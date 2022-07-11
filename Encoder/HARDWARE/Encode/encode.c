@@ -27,7 +27,7 @@ void TIM4_Mode_Config(void)
 	NVIC_Config(2);	
 	
 	TIM_TimeBaseStructInit(&TIM_TimeBaseStructure);
-	TIM_TimeBaseStructure.TIM_Period = 3999;  //设定计数器重装值   TIMx_ARR 设置线数 (1000*4)-1
+	TIM_TimeBaseStructure.TIM_Period = (4096*4 - 1) ;  //设定计数器重装值   TIMx_ARR 设置线数 (1000*4)-1
 	TIM_TimeBaseStructure.TIM_Prescaler = 0; //TIM4时钟预分频值
 	TIM_TimeBaseStructure.TIM_ClockDivision =TIM_CKD_DIV1 ;//设置时钟分割 T_dts = T_ck_int    
 	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up; //TIM向上计数 
